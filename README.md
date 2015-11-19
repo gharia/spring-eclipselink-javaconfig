@@ -2,11 +2,11 @@
 
 This project is well configured architecture which have Spring Data Jpa, EclipseLink, Sitemesh, Spring Rest API and all the configuration are Java Annotation bases, no xml. You can just download the project &amp; start creating your application.
 
-:: Steps to run/deploy project ::
+<b>Steps to run/deploy project</b>
 
 You can view the detail dexplanation on https://ghariaonline.wordpress.com/2015/11/19/spring-mvc-and-spring-data-jpa-with-eclipselink-sitemesh-restful-web-service-annotation-based-configuration/. 
-Here listing down the steps for running & deploying the project.
 
+Here listing down the steps for running & deploying the project.
 
 1> Execute yoursite.sql in your MySql database.
 
