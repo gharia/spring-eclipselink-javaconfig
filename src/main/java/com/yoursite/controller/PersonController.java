@@ -17,6 +17,11 @@ import com.yoursite.model.Person;
 import com.yoursite.repository.PersonDataRepository;
 import com.yoursite.service.PersonService;
 
+/**
+ * Sample Controller with insert, update, fetch operations
+ * @author Hemrajsinh Gharia
+ *
+ */
 @Controller
 @RequestMapping("/person")
 public class PersonController {

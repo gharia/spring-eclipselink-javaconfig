@@ -3,6 +3,10 @@ package com.yoursite.validator;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
+/**
+ * @author Hemrajsinh Gharia
+ *
+ */
 public class ZipCodeValidator implements ConstraintValidator<ZipCode, String> {
 
 	@Override

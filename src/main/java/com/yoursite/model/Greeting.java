@@ -1,5 +1,10 @@
 package com.yoursite.model;
 
+/**
+ * Simpe Greeting pojo class for REST api demostration 
+ * @author Hemrajsinh Gharia
+ *
+ */
 public class Greeting {
 	
 	private final long id;

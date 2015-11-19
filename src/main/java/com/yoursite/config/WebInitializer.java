@@ -13,6 +13,11 @@ import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
+/**
+ * THis class will start ServletContext and load dispatcher servlet & other mentioned servlets, filters etc
+ * @author Hemrajsinh Gharia
+ *
+ */
 public class WebInitializer implements WebApplicationInitializer{
 
 	private static org.apache.log4j.Logger log = Logger.getLogger(WebInitializer.class);

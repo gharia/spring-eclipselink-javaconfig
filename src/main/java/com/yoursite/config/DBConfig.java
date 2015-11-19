@@ -22,6 +22,11 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import com.jolbox.bonecp.BoneCPDataSource;
 
+/**
+ * Class which includes database related configuration and bean creation
+ * @author Hemrajsinh Gharia
+ *
+ */
 @Configuration
 @EnableTransactionManagement(proxyTargetClass = true)
 @EnableJpaRepositories(basePackages={"com.yoursite.repository"}, entityManagerFactoryRef = "em")

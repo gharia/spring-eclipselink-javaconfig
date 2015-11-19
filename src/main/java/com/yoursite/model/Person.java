@@ -17,8 +17,9 @@ import com.yoursite.validator.ZipCode;
 
 
 /**
- * The persistent class for the person database table.
- * 
+ * Sample Person class
+ * @author Hemrajsinh Gharia
+ *
  */
 @Entity
 @NamedQuery(name="Person.findAll", query="SELECT p FROM Person p")
