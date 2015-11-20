@@ -31,7 +31,7 @@ public class GreetingController {
 	/*
 	 * Returns JSON represents of Person object
 	 */
-	@RequestMapping("/greeting/{userId}")
+	@RequestMapping("/greeting/{personId}")
 	public Person greeting(@PathVariable Long personId) {
 		return personDataRepository.getOne(personId);		
 	}
